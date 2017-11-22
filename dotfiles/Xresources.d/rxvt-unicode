@@ -1,0 +1,8 @@
+! URxvt configuration
+!
+! To be kept in .Xresources.d and loaded by .Xresources.
+
+URxvt.termName:		rxvt
+URxvt.transparant:	false
+URxvt.internalBorder:	4
+URxvt.cursorBlink:	true

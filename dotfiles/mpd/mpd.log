@@ -1,0 +1,189 @@
+Sep 22 21:07 : update: added all dogs - Kicking Every Day/all dogs - Kicking Every Day - 10 The Garden.mp3
+Sep 22 21:07 : update: added all dogs - Kicking Every Day/all dogs - Kicking Every Day - 07 Leading Me Back To You.mp3
+Sep 22 21:07 : update: added all dogs - Kicking Every Day/all dogs - Kicking Every Day - 06 Flowers.mp3
+Sep 22 21:07 : update: added all dogs - Kicking Every Day/all dogs - Kicking Every Day - 05 Your Mistakes.mp3
+Sep 22 21:07 : update: added all dogs - Kicking Every Day/all dogs - Kicking Every Day - 04 That Kind of Girl.mp3
+Sep 22 21:07 : update: added all dogs - Kicking Every Day/all dogs - Kicking Every Day - 03 Sunday Morning.mp3
+Sep 22 21:07 : update: added all dogs - Kicking Every Day/all dogs - Kicking Every Day - 09 Skin.mp3
+Sep 22 21:07 : update: added all dogs - Kicking Every Day/all dogs - Kicking Every Day - 08 Ophelia.mp3
+Sep 22 21:07 : update: added all dogs - Kicking Every Day/all dogs - Kicking Every Day - 01 Black Hole.mp3
+Sep 22 21:07 : update: added all dogs - Kicking Every Day/all dogs - Kicking Every Day - 02 How Long.mp3
+Sep 22 21:07 : update: added Hop Along - Painted Shut/Hop Along - Painted Shut - 02 Buddy in the Parade.mp3
+Sep 22 21:07 : update: added Hop Along - Painted Shut/Hop Along - Painted Shut - 01 The Knock.mp3
+Sep 22 21:07 : update: added Hop Along - Painted Shut/Hop Along - Painted Shut - 03 Horseshoe Crabs.mp3
+Sep 22 21:07 : update: added Hop Along - Painted Shut/Hop Along - Painted Shut - 05 Happy To See Me.mp3
+Sep 22 21:07 : update: added Hop Along - Painted Shut/Hop Along - Painted Shut - 07 Powerful Man.mp3
+Sep 22 21:07 : update: added Hop Along - Painted Shut/Hop Along - Painted Shut - 06 Texas Funeral.mp3
+Sep 22 21:07 : update: added Hop Along - Painted Shut/Hop Along - Painted Shut - 09 Well-dressed.mp3
+Sep 22 21:07 : update: added Hop Along - Painted Shut/Hop Along - Painted Shut - 10 Sister Cities.mp3
+Sep 22 21:07 : update: added Hop Along - Painted Shut/Hop Along - Painted Shut - 04 Waitress.mp3
+Sep 22 21:07 : update: added Hop Along - Painted Shut/Hop Along - Painted Shut - 08 I Saw My Twin.mp3
+Sep 22 21:07 : update: added courtney barnett - sometimes i sit and think- and sometimes i just sit/courtney barnett - sometimes i sit and think, and sometimes i just sit - 03 An Illustration Of Loneliness (Sleepless In New York).mp3
+Sep 22 21:07 : update: added courtney barnett - sometimes i sit and think- and sometimes i just sit/courtney barnett - sometimes i sit and think, and sometimes i just sit - 10 Kim's Caravan.mp3
+Sep 22 21:07 : update: added courtney barnett - sometimes i sit and think- and sometimes i just sit/courtney barnett - sometimes i sit and think, and sometimes i just sit - 02 Pedestrian At Best.mp3
+Sep 22 21:07 : update: added courtney barnett - sometimes i sit and think- and sometimes i just sit/courtney barnett - sometimes i sit and think, and sometimes i just sit - 11 Boxing Day Blues.mp3
+Sep 22 21:07 : update: added courtney barnett - sometimes i sit and think- and sometimes i just sit/courtney barnett - sometimes i sit and think, and sometimes i just sit - 07 Dead Fox.mp3
+Sep 22 21:07 : update: added courtney barnett - sometimes i sit and think- and sometimes i just sit/courtney barnett - sometimes i sit and think, and sometimes i just sit - 09 Debbie Downer.mp3
+Sep 22 21:07 : update: added courtney barnett - sometimes i sit and think- and sometimes i just sit/courtney barnett - sometimes i sit and think, and sometimes i just sit - 06 Aqua Profonda!.mp3
+Sep 22 21:07 : update: added courtney barnett - sometimes i sit and think- and sometimes i just sit/courtney barnett - sometimes i sit and think, and sometimes i just sit - 04 Small Poppies.mp3
+Sep 22 21:07 : update: added courtney barnett - sometimes i sit and think- and sometimes i just sit/courtney barnett - sometimes i sit and think, and sometimes i just sit - 01 Elevator Operator.mp3
+Sep 22 21:07 : update: added courtney barnett - sometimes i sit and think- and sometimes i just sit/courtney barnett - sometimes i sit and think, and sometimes i just sit - 08 Nobody Really Cares If You Don't Go To The Party.mp3
+Sep 22 21:07 : update: added courtney barnett - sometimes i sit and think- and sometimes i just sit/courtney barnett - sometimes i sit and think, and sometimes i just sit - 05 Depreston.mp3
+Sep 22 21:09 : errno: Failed to create /var/lib/mpd/state: Permission denied
+Sep 22 21:09 : avahi: Initializing interface
+Sep 22 21:09 : avahi: Client changed to state 101
+Sep 22 21:09 : avahi: Client is CONNECTING
+Sep 22 21:09 : state_file: Loading state file /var/lib/mpd/state
+Sep 22 21:10 : client: [0] opened from [::1]:38800
+Sep 22 21:10 : client: [0] process command "lsinfo """
+Sep 22 21:10 : client: [0] command returned 0
+Sep 22 21:10 : client: [0] closed
+Sep 22 21:13 : state_file: Saving state file /var/lib/mpd/state
+Sep 22 21:13 : errno: Failed to create /var/lib/mpd/state: Permission denied
+Sep 22 21:13 : avahi: Shutting down interface
+Sep 22 21:13 : listen: listen_global_finish called
+Sep 22 21:13 : fifo_output: Removing FIFO "/tmp/mpd.fifo"
+Sep 22 21:19 : errno: Failed to create /var/lib/mpd/state: Permission denied
+Sep 22 21:19 : alsa_mixer: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 22 21:22 : output: Failed to open mixer for 'My ALSA Device'
+Sep 22 21:24 : errno: Failed to create /var/lib/mpd/state: Permission denied
+Sep 22 21:26 : player: played "all dogs - Kicking Every Day/all dogs - Kicking Every Day - 01 Black Hole.mp3"
+Sep 22 21:27 : errno: Failed to create /var/lib/mpd/state: Permission denied
+Sep 22 21:27 : alsa_output: "My ALSA Device" [alsa] failed to play: Broken pipe
+Sep 22 21:27 : player: played "all dogs - Kicking Every Day/all dogs - Kicking Every Day - 02 How Long.mp3"
+Sep 22 21:28 : alsa_mixer: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 22 21:29 : output: Failed to open mixer for 'My ALSA Device'
+Sep 22 21:31 : errno: Failed to create /var/lib/mpd/state: Permission denied
+Sep 22 21:33 : player: played "all dogs - Kicking Every Day/all dogs - Kicking Every Day - 01 Black Hole.mp3"
+Sep 22 21:35 : errno: Failed to create /var/lib/mpd/state: Permission denied
+Sep 22 21:36 : player: played "all dogs - Kicking Every Day/all dogs - Kicking Every Day - 02 How Long.mp3"
+Sep 22 21:37 : player: played "all dogs - Kicking Every Day/all dogs - Kicking Every Day - 03 Sunday Morning.mp3"
+Sep 22 21:37 : player: played "all dogs - Kicking Every Day/all dogs - Kicking Every Day - 04 That Kind of Girl.mp3"
+Sep 22 21:37 : player: played "all dogs - Kicking Every Day/all dogs - Kicking Every Day - 03 Sunday Morning.mp3"
+Sep 22 21:38 : errno: Failed to create /var/lib/mpd/state: Permission denied
+Sep 22 21:38 : player: played "all dogs - Kicking Every Day/all dogs - Kicking Every Day - 04 That Kind of Girl.mp3"
+Sep 22 21:38 : output: Failed to open mixer for 'My ALSA Device'
+Sep 22 21:38 : player: played "all dogs - Kicking Every Day/all dogs - Kicking Every Day - 01 Black Hole.mp3"
+Sep 22 21:39 : player: played "all dogs - Kicking Every Day/all dogs - Kicking Every Day - 01 Black Hole.mp3"
+Sep 22 21:39 : output: Failed to open mixer for 'My ALSA Device'
+Sep 22 21:39 : player: played "all dogs - Kicking Every Day/all dogs - Kicking Every Day - 01 Black Hole.mp3"
+Sep 22 21:40 : errno: Failed to create /var/lib/mpd/state: Permission denied
+Sep 22 21:42 : player: played "all dogs - Kicking Every Day/all dogs - Kicking Every Day - 01 Black Hole.mp3"
+Sep 22 21:43 : output: Failed to open mixer for 'My ALSA Device'
+Sep 22 21:43 : player: played "all dogs - Kicking Every Day/all dogs - Kicking Every Day - 01 Black Hole.mp3"
+Sep 22 21:43 : player: played "all dogs - Kicking Every Day/all dogs - Kicking Every Day - 02 How Long.mp3"
+Sep 22 21:44 : errno: Failed to create /var/lib/mpd/state: Permission denied
+Sep 22 21:46 : player: played "all dogs - Kicking Every Day/all dogs - Kicking Every Day - 03 Sunday Morning.mp3"
+Sep 22 21:48 : errno: Failed to create /var/lib/mpd/state: Permission denied
+Sep 22 21:49 : errno: Failed to create /var/lib/mpd/state: Permission denied
+Sep 22 21:49 : player: played "all dogs - Kicking Every Day/all dogs - Kicking Every Day - 04 That Kind of Girl.mp3"
+Sep 22 21:50 : alsa_mixer: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 22 21:50 : output: Failed to open mixer for 'My ALSA Device'
+Sep 22 21:50 : player: played "all dogs - Kicking Every Day/all dogs - Kicking Every Day - 04 That Kind of Girl.mp3"
+Sep 22 21:52 : errno: Failed to create /var/lib/mpd/state: Permission denied
+Sep 22 21:54 : player: played "all dogs - Kicking Every Day/all dogs - Kicking Every Day - 05 Your Mistakes.mp3"
+Sep 22 21:56 : errno: Failed to create /var/lib/mpd/state: Permission denied
+Sep 22 21:58 : player: played "Hop Along - Painted Shut/Hop Along - Painted Shut - 01 The Knock.mp3"
+Sep 22 22:00 : errno: Failed to create /var/lib/mpd/state: Permission denied
+Sep 22 22:02 : player: played "Hop Along - Painted Shut/Hop Along - Painted Shut - 03 Horseshoe Crabs.mp3"
+Sep 22 22:04 : errno: Failed to create /var/lib/mpd/state: Permission denied
+Sep 22 22:04 : output: Failed to open mixer for 'My ALSA Device'
+Sep 22 22:06 : player: played "Hop Along - Painted Shut/Hop Along - Painted Shut - 04 Waitress.mp3"
+Sep 22 22:06 : errno: Failed to create /var/lib/mpd/state: Permission denied
+Sep 22 22:10 : player: played "Hop Along - Painted Shut/Hop Along - Painted Shut - 08 I Saw My Twin.mp3"
+Sep 22 22:12 : errno: Failed to create /var/lib/mpd/state: Permission denied
+Sep 22 23:43 : errno: Failed to create /var/lib/mpd/state: Permission denied
+Sep 23 01:45 : alsa_mixer: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 23 01:46 : update: added MF Doom - Operation Doomsday/04 The Finest (feat. Tommy Gunn).mp3
+Sep 23 01:46 : update: added MF Doom - Operation Doomsday/13 Operation_ Greenbacks (feat. Megalon).mp3
+Sep 23 01:46 : update: added MF Doom - Operation Doomsday/08 Red and Gold (feat. King Ghidra).mp3
+Sep 23 01:46 : update: added MF Doom - Operation Doomsday/01 The Time We Faced Doom (skit).mp3
+Sep 23 01:46 : update: added MF Doom - Operation Doomsday/17 Gas Drawls.mp3
+Sep 23 01:46 : update: added MF Doom - Operation Doomsday/12 Hey!.mp3
+Sep 23 01:46 : update: added MF Doom - Operation Doomsday/16 Dead Bent.mp3
+Sep 23 01:46 : update: added MF Doom - Operation Doomsday/03 Rhymes Like Dimes (feat. Cucumber Slice).mp3
+Sep 23 01:46 : update: added MF Doom - Operation Doomsday/05 Back in the Days (skit).mp3
+Sep 23 01:46 : update: added MF Doom - Operation Doomsday/09 The Hands of Doom (skit).mp3
+Sep 23 01:46 : update: added MF Doom - Operation Doomsday/11 Doom, Are You Awake_ (skit).mp3
+Sep 23 01:46 : update: added MF Doom - Operation Doomsday/14 The M.I.C..mp3
+Sep 23 01:46 : update: added MF Doom - Operation Doomsday/10 Who Do You Think I Am_ (feat. X-Ray, Rodan, Megalon, K.D., King Ghidra & Kong).mp3
+Sep 23 01:46 : update: added MF Doom - Operation Doomsday/15 The Mystery of Doom (skit).mp3
+Sep 23 01:46 : update: added MF Doom - Operation Doomsday/02 Doomsday.mp3
+Sep 23 01:46 : update: added MF Doom - Operation Doomsday/07 Tick, Tick... (feat. MF Grimm).mp3
+Sep 23 01:46 : update: added MF Doom - Operation Doomsday/06 Go With the Flow.mp3
+Sep 23 01:46 : update: added MF Doom - Operation Doomsday/18 _ (feat. Kurious).mp3
+Sep 23 01:46 : update: added MF Doom - Operation Doomsday/19 Hero vs. Villain (Epilogue) (feat. E. Mason).mp3
+Sep 23 01:46 : update: added The Replacements -Tim/03. Kiss Me On The Bus.mp3
+Sep 23 01:46 : update: added The Replacements -Tim/02. I'll Buy.mp3
+Sep 23 01:46 : update: added The Replacements -Tim/05. Waitress In The Sky.mp3
+Sep 23 01:46 : update: added The Replacements -Tim/04. Dose Of Thunder.mp3
+Sep 23 01:46 : update: added The Replacements -Tim/07. Bastards Of Young.mp3
+Sep 23 01:46 : update: added The Replacements -Tim/06. Swingin Party.mp3
+Sep 23 01:46 : update: added The Replacements -Tim/10. Little Mascara.mp3
+Sep 23 01:46 : update: added The Replacements -Tim/09. Left Of The Dial.mp3
+Sep 23 01:46 : update: added The Replacements -Tim/11. Here Comes A Regular.mp3
+Sep 23 01:46 : update: added The Replacements -Tim/08. Lay It Down Clown.mp3
+Sep 23 01:46 : update: added The Replacements -Tim/01. Hold My Life.mp3
+Sep 23 01:46 : update: added Mobb Deep - Infamous/05. Just Step Prelude.mp3
+Sep 23 01:46 : update: added Mobb Deep - Infamous/14. Drink Away the Pain.mp3
+Sep 23 01:46 : update: added Mobb Deep - Infamous/11. Right Back at You.mp3
+Sep 23 01:46 : update: added Mobb Deep - Infamous/10. QU Hectic.mp3
+Sep 23 01:46 : update: added Mobb Deep - Infamous/07. Temperature's Rising.mp3
+Sep 23 01:46 : update: added Mobb Deep - Infamous/02. Infamous Prelude.mp3
+Sep 23 01:46 : update: added Mobb Deep - Infamous/03. Survival of the Fittest.mp3
+Sep 23 01:46 : update: added Mobb Deep - Infamous/06. Give Up the Goods.mp3
+Sep 23 01:46 : update: added Mobb Deep - Infamous/12. Grave Prelude.mp3
+Sep 23 01:46 : update: added Mobb Deep - Infamous/09. Trife Life.mp3
+Sep 23 01:46 : update: added Mobb Deep - Infamous/15. Shook Ones Pt.2.mp3
+Sep 23 01:46 : update: added Mobb Deep - Infamous/01. Start of Your Ending.mp3
+Sep 23 01:46 : update: added Mobb Deep - Infamous/08. Up North Trip.mp3
+Sep 23 01:46 : update: added Mobb Deep - Infamous/13. Cradle to the Grave.mp3
+Sep 23 01:46 : update: added Mobb Deep - Infamous/16. Party Over.mp3
+Sep 23 01:46 : update: added Mobb Deep - Infamous/04. Eye for a Eye.mp3
+Sep 23 01:46 : update: added Townes Van Zandt- The Late Great Townes Van Zandt/05. Honky Tonkin'.mp3
+Sep 23 01:46 : update: added Townes Van Zandt- The Late Great Townes Van Zandt/09. If I Needed You.mp3
+Sep 23 01:46 : update: added Townes Van Zandt- The Late Great Townes Van Zandt/11. Heavenly Houseboat Blues.mp3
+Sep 23 01:46 : update: added Townes Van Zandt- The Late Great Townes Van Zandt/10. Silver Ships Of Andilar.mp3
+Sep 23 01:46 : update: added Townes Van Zandt- The Late Great Townes Van Zandt/03. German Mustard (A. Clapalong).mp3
+Sep 23 01:46 : update: added Townes Van Zandt- The Late Great Townes Van Zandt/01. No Lonesome Tune.mp3
+Sep 23 01:46 : update: added Townes Van Zandt- The Late Great Townes Van Zandt/06. Snow Don't Fall.mp3
+Sep 23 01:46 : update: added Townes Van Zandt- The Late Great Townes Van Zandt/07. Fraulein.mp3
+Sep 23 01:46 : update: added Townes Van Zandt- The Late Great Townes Van Zandt/04. Don't Let The Sunshine Fool Ya'.mp3
+Sep 23 01:46 : update: added Townes Van Zandt- The Late Great Townes Van Zandt/02. Sad Cinderella.mp3
+Sep 23 01:46 : update: added Townes Van Zandt- The Late Great Townes Van Zandt/08. Pancho & Left.Y.mp3
+Sep 23 01:46 : update: added NAS - Illmatic/05 Nas - Halftime.mp3
+Sep 23 01:46 : update: added NAS - Illmatic/02 Nas - N.Y. State Of Mind.mp3
+Sep 23 01:46 : update: added NAS - Illmatic/10 Nas - It Ain't Hard To Tell.mp3
+Sep 23 01:46 : update: added NAS - Illmatic/06 Nas - Memory Lane (Sittin' In Da Park).mp3
+Sep 23 01:46 : update: added NAS - Illmatic/07 Nas - One Love.mp3
+Sep 23 01:46 : update: added NAS - Illmatic/09 Nas - Represent.mp3
+Sep 23 01:46 : update: added NAS - Illmatic/04 Nas - The World Is Yours.mp3
+Sep 23 01:46 : update: added NAS - Illmatic/03 Nas - Life's A Bitch.mp3
+Sep 23 01:46 : update: added NAS - Illmatic/01 Nas - The Genesis.mp3
+Sep 23 01:46 : update: added NAS - Illmatic/08 Nas - One Time 4 Your Mind.mp3
+Sep 23 01:46 : update: added /MF DOOM, RZA, OMEGAH RED - Books of War - MF DOOM Ft. RZA.mp3
+Sep 23 01:48 : errno: Failed to create /var/lib/mpd/state: Permission denied
+Sep 23 15:50 : errno: Failed to create /var/lib/mpd/state: Permission denied
+Sep 23 19:53 : alsa_mixer: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Sep 23 19:53 : output: Failed to open mixer for 'My ALSA Device'
+Sep 23 19:53 : player: played "MF DOOM, RZA, OMEGAH RED - Books of War - MF DOOM Ft. RZA.mp3"
+Sep 23 19:53 : player: played "MF Doom - Operation Doomsday/03 Rhymes Like Dimes (feat. Cucumber Slice).mp3"
+Sep 23 19:55 : errno: Failed to create /var/lib/mpd/state: Permission denied
+Sep 23 19:56 : player: played "MF DOOM, RZA, OMEGAH RED - Books of War - MF DOOM Ft. RZA.mp3"
+Sep 23 19:58 : errno: Failed to create /var/lib/mpd/state: Permission denied
+Sep 23 20:34 : avahi: Service 'Music Player' successfully established.
+Sep 23 23:13 : avahi: Client Disconnected, will reconnect shortly
+Sep 23 23:13 : errno: Failed to create /var/lib/mpd/state: Permission denied
+Sep 23 23:13 : player: played "MF Doom - Operation Doomsday/01 The Time We Faced Doom (skit).mp3"
+Sep 23 23:13 : avahi: Service 'Music Player' successfully established.
+Sep 23 23:37 : errno: Failed to create /var/lib/mpd/state: Permission denied
+Sep 24 12:22 : avahi: Service 'Music Player' successfully established.
+Sep 24 12:24 : errno: Failed to create /var/lib/mpd/state: Permission denied
+Sep 25 13:16 : avahi: Service 'Music Player' successfully established.
+Sep 25 13:27 : errno: Failed to create /var/lib/mpd/state: Permission denied
+Sep 25 13:28 : avahi: Service 'Music Player' successfully established.
+Sep 25 14:14 : avahi: Client Disconnected, will reconnect shortly
+Sep 25 14:14 : errno: Failed to create /var/lib/mpd/state: Permission denied
+Sep 26 12:29 : avahi: Service 'Music Player' successfully established.
+Sep 26 13:55 : errno: Failed to create /var/lib/mpd/state: Permission denied
+Sep 26 18:29 : avahi: Service 'Music Player' successfully established.

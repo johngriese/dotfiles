@@ -1,0 +1,11 @@
+# Programs that will run after openbox has started
+
+# Loads user fonts form dotfiles
+xset +fp $HOME/.fonts
+xset fp rehash
+
+# Sets background color
+xsetroot -solid '#425759'
+
+# A bar for the good times
+$HOME/.config/polybar/launch.sh
