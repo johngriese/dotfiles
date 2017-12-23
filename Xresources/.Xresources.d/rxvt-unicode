@@ -6,3 +6,6 @@ URxvt.termName:		rxvt
 URxvt.transparant:	false
 URxvt.internalBorder:	4
 URxvt.cursorBlink:	true
+
+! Adding this to make solarized colors work right
+Urxvt.intensityStyles:	false

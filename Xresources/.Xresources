@@ -2,7 +2,7 @@
 !
 ! loads modules from .Xresources.d
 #include ".Xresources.d/rxvt-unicode"
-#include ".Xresources.d/colors"
+#include ".Xresources.d/colors.d/gruvbox.dark"
 
 ! Global Settings
 !
@@ -11,8 +11,11 @@
 
 !! Fonts
 !
-*.font:			-gohu-gohufont-*,-*-siji-*
-*.boldFont:		-gohu-gohufont-*,-*,siji-*
+*.font:			-*-gohufont-medium-*-normal-*-11-*
+*.boldFont:		-gohu-gohufont-medium-*-normal-*-11-*
+!*.font:			xft:roboto-mono:size=8
+!*.boldFont:		xft:roboto-mono:size=8
+!*.letterSpace:		-2
 
 ! Font Settings
 !
