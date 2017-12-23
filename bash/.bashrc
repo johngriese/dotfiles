@@ -6,7 +6,7 @@
 [[ $- != *i* ]] && return
 
 if [ -f ~/.bash_aliases ]; then
-	~/.bash_aliases
+	. ~/.bash_aliases
 fi
 
 #alias ls='ls --color=auto'
