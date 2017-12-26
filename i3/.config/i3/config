@@ -161,8 +161,8 @@ client.unfocused	$darkgray	$darkgray	$yellow		$purple		$darkgray
 client.urgent		$red		$red		$gray		$red		$red
 
 # disables window titlebars
-new_window pixel 1
-new_float pixel 1
+new_window pixel 2
+new_float pixel 2
 
 ##
 # WINDOW BEHAVIOR
@@ -182,7 +182,8 @@ exec_always xset fp rehash
 exec_always xset b off
 
 # sets background color
-exec_always xsetroot -solid '$blue'  # dark blue from gruvbox
+exec_always xsetroot -bitmap /home/rad/git/bitmap-walls/patterns/line_diag4_1.xbm -bg "$(xrdb -query|awk '/\*color8:/ {print $2}')" -fg "$(xrdb -query|awk '/\*color0:/ {print $2}')" 
+# exec_always xsetroot -solid '$blue'  # dark blue from gruvbox
 
 # loads .Xresources
 exec_always xrdb $HOME/.Xresources
