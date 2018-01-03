@@ -11,7 +11,13 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
+" loads gruvbox colorscheme
+Plugin 'morhetz/gruvbox'
+
 
 " All Plugins must be added before the following line
 call vundle#end()		" required
 filetype plugin indent on	" required
+
+colorscheme gruvbox		" colors
+syntax enable			" enable syntax processing
