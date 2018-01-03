@@ -1,5 +1,6 @@
 " local .vimrc
 "
+" VUNDLE
 " loading these cause Vundle said so
 set nocompatible		" required
 filetype off			" required
@@ -19,5 +20,14 @@ Plugin 'morhetz/gruvbox'
 call vundle#end()		" required
 filetype plugin indent on	" required
 
+
+" USER SETTINGS
+"
+" Colors
 colorscheme gruvbox		" colors
 syntax enable			" enable syntax processing
+
+" Tabs
+set tabstop=4			" number of visual spaces per tab
+set softtabstop=4		" number of spaces in tab when editing
+set expandtab			" tab are spaces
