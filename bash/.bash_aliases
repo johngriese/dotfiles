@@ -7,4 +7,3 @@ alias la='ls -la'
 
 # simple journaling script
 alias todo='vim /home/rad/todo.md'
-alias journal='vim /home/rad/documents/journal/$(date +%Y-%m-%d).md'
