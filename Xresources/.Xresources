@@ -13,7 +13,9 @@
 !! Fonts
 !
 *.font:			-*-gohufont-medium-*-normal-*-11-*
-*.boldFont:		-gohu-gohufont-medium-*-normal-*-11-*
+*.boldFont:		-*-gohufont-medium-*-normal-*-11-*
+!*.font:			-*-lemon-medium-*-normal-*-10-*
+!*.boldFont:		-*-lemon-medium-*-normal-*-10-*
 !*.font:			xft:roboto-mono:size=8
 !*.boldFont:		xft:roboto-mono:size=8
 !*.letterSpace:		-2
