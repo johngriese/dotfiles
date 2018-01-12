@@ -7,3 +7,9 @@ alias la='ls -la'
 
 # simple todo 
 alias todo='vim /home/rad/todo.md'
+
+# test a .zip archive
+alias zt='unzip -tq'
+
+# shows .zip archive details
+alias zi='unzip -Z'
