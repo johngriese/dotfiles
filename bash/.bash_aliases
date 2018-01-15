@@ -8,6 +8,9 @@ alias la='ls -la'
 # simple todo 
 alias todo='vim /home/rad/todo.md'
 
+# journal shortcut
+alias jrnl='journal.sh'
+
 # test a .zip archive
 alias zt='unzip -tq'
 
