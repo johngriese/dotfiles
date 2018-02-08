@@ -173,10 +173,17 @@ new_float pixel 2
 for_window [class="Wicd-client.py"] floating enable
 #for_winwow [class="Lxappearance"] floating enable
 
-# loads user fonts from dotfiles
-exec_always xset +fp $HOME/.fonts
+# loads user fonts for X.
+# NOTE: X does NOT load donts recursively from /usr/share/fonts
+# We need to do each one.
+# This should become a script soon.
+exec_always xset +fp /usr/share/fonts
+exec_always xset +fp /usr/share/fonts/termsyn
+exec_always xset +fp /usr/share/fonts/noto
+exec_always xset +fp /usr/share/fonts/local
+exec_always xset +fp /usr/share/fonts/artwiz-fonts
 exec_always xset fp rehash
-#exec_always fc-cache
+exec_always fc-cache
 
 # turns off terminal bell
 exec_always xset b off

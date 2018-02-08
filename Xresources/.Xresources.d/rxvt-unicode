@@ -2,17 +2,20 @@
 !
 ! To be kept in .Xresources.d and loaded by .Xresources.
 
-URxvt.termName:		rxvt
-URxvt.transparant:	false
+URxvt.termName:		    rxvt
+URxvt.transparant:	    false
 URxvt.internalBorder:	4
-URxvt.cursorBlink:	true
+URxvt.cursorBlink:	    true
 
 ! Adding this to make solarized colors work right
 Urxvt.intensityStyles:	false
 
 ! Add support for glyphs
-URxvt.font:     -*-gohufont-medium-*-normal-*-11-*, \
-                -wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1
 
-URxvt.boldFont: -*-gohufont-medium-*-normal-*-11-*, \
-                -wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1
+!URxvt.font:             xft:Misc Termsyn:regular:size=10, \
+!                        xft:Misc Siji:regular:size=10
+!URxvt.boldFont:         xft:Misc Termsyn:regular:size=10, \
+!                        xft:Misc Siji:regular:size=10
+
+! If font is too wide mess with this
+!URxvt.letterSpace:  -1

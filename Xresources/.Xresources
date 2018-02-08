@@ -15,17 +15,17 @@
 ! URxvt has its own declarations for glyph support
 ! see .Xresources.d/rxvt-unicode
 !
-*.font:			-*-gohufont-medium-*-normal-*-11-*
-*.boldFont:		-*-gohufont-medium-*-normal-*-11-*
-!*.font:			-*-lemon-medium-*-normal-*-10-*
-!*.boldFont:		-*-lemon-medium-*-normal-*-10-*
 
+*.font:             xft:Misc Termsyn:regular:size=10, \
+                    xft:Misc Siji:regular:size=10
+*.boldFont:         xft:Misc Termsyn:regular:size=10, \
+                    xft:Misc Siji:regular:size=10
 ! Font Settings
 !
-Xft.dpi:		96
+Xft.dpi:		    96
 Xft.antialias:		true
 Xft.hinting:		true
-Xft.rgba:		rgb
+Xft.rgba:		    rgb
 Xft.autohint:		false
 Xft.hintstyle:		hintstyle
 Xft.lcdfilter:		lcddefault
