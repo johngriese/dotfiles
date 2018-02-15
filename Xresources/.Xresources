@@ -20,8 +20,10 @@
 !                    -wuncon-siji-medium-*-normal-*-10-*-*-*-*-*-*-*
 !*.boldFont:         -misc-termsyn-medium-*-*-*-12-*-*-*-*-*-*-*, \
 !                    -wuncon-siji-medium-*-normal-*-10-*-*-*-*-*-*-*
-*.font:             -uw-ttyp0-medium-r-normal-*-11-*-*-*-*-*-iso10646-*
-*.boldFont:         -uw-ttyp0-medium-r-normal-*-11-*-*-*-*-*-iso10646-*
+*.font:             -uw-ttyp0-medium-r-normal-*-11-*-*-*-*-*-iso10646-*, \
+                    -wuncon-siji-medium-*-normal-*-10-*-*-*-*-*-*-*
+*.boldFont:         -uw-ttyp0-medium-r-normal-*-11-*-*-*-*-*-iso10646-*, \
+                    -wuncon-siji-medium-*-normal-*-10-*-*-*-*-*-*-*
 ! xft settings
 ! still unsure which to use
 !*.font:             xft:uw ttyp0:regular:size=8
