@@ -52,7 +52,7 @@ module-margin-left = 1
 module-margin-right = 2
 
 ;font-0 = -misc-termsyn-medium-*-*-*-12-*-*-*-*-*-*-*,
-font-0 = uw ttyp0:regular:size=8:antialias=true:hinting=true;0
+font-0 = uw ttyp0:regular:pixelsize=11:antialias=true:hinting=true;0
 font-1 = siji:regular:pixelsize=10;0
 font-2 = inconsolata:fontformat=truetype:size=8:antialias=false;0
 font-3 = unifont:fontformat=truetype:size=8:antialias=false;0
