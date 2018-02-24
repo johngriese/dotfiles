@@ -71,6 +71,20 @@ bindsym $mod+e layout toggle split
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 
+# move floating windows with standard keys
+mode "move" {
+    bindsym h move left 20px
+    bindsym j move down 20px
+    bindsym k move up 20px
+    bindsym l move right 20px
+
+    # return to normal mode
+    bindsym Escape mode "default"
+    bindsym Return mode "default"
+}
+bindsym $mod+m focus floating; mode "move"
+
+
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
 
