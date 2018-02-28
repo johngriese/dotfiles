@@ -15,7 +15,6 @@ Plugin 'VundleVim/Vundle.vim'
 " loads gruvbox colorscheme
 Plugin 'morhetz/gruvbox'
 
-
 " All Plugins must be added before the following line
 call vundle#end()		" required
 filetype plugin indent on	" required
@@ -33,3 +32,4 @@ set number              " show line numbers
 set cursorline          " highlight current line
 set lazyredraw          " redraw only when needed
 set showmatch           " highlight matching [] () or {}
+set linebreak           " breaks lines at words
