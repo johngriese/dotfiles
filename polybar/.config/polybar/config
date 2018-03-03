@@ -1,4 +1,4 @@
-;=====================================================
+misc=====================================================
 ;
 ;   To learn more about how to configure Polybar
 ;   go to https://github.com/jaagr/polybar
@@ -59,7 +59,7 @@ font-3 = unifont:fontformat=truetype:size=8:antialias=false;0
 
 modules-left = i3 
 modules-center = date 
-modules-right = vpncheck wlan eth volume battery 
+modules-right = vpncheck eth wlan volume battery 
 
 
 tray-position = right
@@ -223,22 +223,22 @@ type = internal/network
 interface = wlp3s0
 interval = 3.0
 
-format-connected = <ramp-signal> <label-connected>
+format-connected =  <label-connected>
 ;format-connected-underline = #9f78e1
 label-connected = %essid%
 
-format-disconnected =
+;format-disconnected =  off
 ;format-disconnected = <label-disconnected>
 ;format-disconnected-underline = ${self.format-connected-underline}
 ;label-disconnected = %ifname% disconnected
 ;label-disconnected-foreground = ${colors.foreground-alt}
 
-ramp-signal-0 = 
-ramp-signal-1 = 
-ramp-signal-2 = 
+;ramp-signal-0 = 
+;ramp-signal-1 = 
+;ramp-signal-2 = 
 ;ramp-signal-3 = 
 ;ramp-signal-4 = 
-ramp-signal-foreground = ${colors.foreground-alt}
+;ramp-signal-foreground = ${colors.foreground-alt}
 
 [module/eth]
 type = internal/network
@@ -246,8 +246,9 @@ interface = enp0s25
 interval = 3.0
 
 ;format-connected-underline = #55aa55
-format-connected-prefix = " "
-format-connected-prefix-foreground = ${colors.foreground-alt}
+format-connected =  <label-connected>
+;format-connected-prefix = " "
+;format-connected-prefix-foreground = ${colors.foreground-alt}
 label-connected = %local_ip%
 
 format-disconnected = 
@@ -287,12 +288,12 @@ master-mixer = Master
 
 ;format-volume = <label-volume> <bar-volume>
 format-volume = <label-volume>
-label-volume = vol: %percentage%% 
+label-volume =  %percentage%% 
 label-volume-foreground = ${colors.foreground}
 
 format-muted-prefix = " "
 format-muted-foreground = ${colors.foreground}
-label-muted = vol: mute 
+label-muted = --%  
 
 bar-volume-width = 8
 bar-volume-foreground-0 = #55aa55
@@ -311,11 +312,15 @@ bar-volume-empty = ─
 bar-volume-empty-font = 2
 bar-volume-empty-foreground = ${colors.foreground-alt}
 
+ramp-volume-0 = 🔈
+ramp-volume-1 = 🔉
+ramp-volume-2 = 🔊
+
 [module/battery]
 type = internal/battery
 battery = BAT0
 adapter = AC
-full-at = 98
+full-at = 99
 
 format-charging = <label-charging>
 ;format-charging-underline = #ffb52a
@@ -337,9 +342,9 @@ animation-charging-2 = 
 animation-charging-foreground = ${colors.foreground-alt}
 animation-charging-framerate = 750
 
-label-charging = bat: %percentage%%
-label-discharging = bat: %percentage%%
-label-full = bat: 100%
+label-charging =  %percentage%%
+label-discharging =  %percentage%%
+label-full =  100%
 
 [module/temperature]
 type = internal/temperature
@@ -472,9 +477,9 @@ label-empty-foreground = #55
 type = custom/script
 exec = pgrep openvpn
 interval = 5
-label = vpn
+label =  vpn
 ;format-underline =
-format-prefix = " "
+;format-prefix = " "
 format-prefix-foreground = ${colors.foreground}
 
 [settings]
