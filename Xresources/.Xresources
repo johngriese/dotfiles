@@ -22,7 +22,7 @@
 !                    -wuncon-siji-medium-*-normal-*-10-*-*-*-*-*-*-*
 *.font:             -uw-ttyp0-medium-r-normal-*-11-*-*-*-*-*-iso10646-*,\
                     -wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1
-*.boldFont:             -uw-ttyp0-medium-r-normal-*-11-*-*-*-*-*-iso10646-*,\
+*.boldFont:         -uw-ttyp0-medium-r-normal-*-11-*-*-*-*-*-iso10646-*,\
                     -wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1
 URxvt*letterSpace: 0 
 ! xft settings
