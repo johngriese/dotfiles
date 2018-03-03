@@ -1,9 +1,21 @@
-Dotfiles!
+>Dotfiles!
+>
+>*You like em, you love em!*
+>
+># The Roster #
+>bach > the legend
+>i3 > totally unique and very obscure wm
+>mpd > music player. phasing out for cmus
+>ncmpcpp > see above.
+>polybar > super handy bar
+>ranger > the only way to browse files
+>rofi > still migrating to this from demnu
+>vim > it's a text editor
+>Xresources > colors, fonts, etc.
 
-*You like em, you love em!*
+# Useage #
 
-So far this includes only a dump of the old files.
-Plan now is to added all dotfiles and manage then with Stow.
+Dotfiles are managed with GNU Stow
 
 Each group of dotfiles should have it's own folder.
 For example, .bashrc and .bash_aliases should both go in a directory called bash
