@@ -196,6 +196,8 @@ exec_always xset +fp /usr/share/fonts/termsyn
 exec_always xset +fp /usr/share/fonts/noto
 exec_always xset +fp /usr/share/fonts/local
 exec_always xset +fp /usr/share/fonts/artwiz-fonts
+exec_always xset +fp /usr/share/fonts/misc
+
 exec_always xset fp rehash
 exec_always fc-cache
 
