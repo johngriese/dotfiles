@@ -14,5 +14,9 @@ fi
 PATH=$PATH:$HOME/navi/scripts
 export path
 
+# sets editor to vim
+export EDITOR='vim'
+export VISUAL='vim'
+
 # bash prompt
 PS1='[\u@\h \W]\$ '
