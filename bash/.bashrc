@@ -11,7 +11,7 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 # set user defined path
-PATH=$PATH:$HOME/scripts
+PATH=$PATH:$HOME/navi/scripts
 export path
 
 # bash prompt
