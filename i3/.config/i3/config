@@ -205,14 +205,14 @@ exec_always fc-cache
 exec_always xset b off
 
 # sets background color
-exec_always xsetroot -bitmap /home/rad/git/bitmap-walls/patterns/line_diag4_1.xbm -bg "$(xrdb -query|awk '/\*color4:/ {print $2}')" -fg "$(xrdb -query|awk '/\*color0:/ {print $2}')" 
+exec_always xsetroot -bitmap /home/rad/navi/git/bitmap-walls/patterns/line_diag4_1.xbm -bg "$(xrdb -query|awk '/\*color4:/ {print $2}')" -fg "$(xrdb -query|awk '/\*color0:/ {print $2}')" 
 # exec_always xsetroot -solid '$blue'  # dark blue from gruvbox
 
 # loads .Xresources
 exec_always xrdb $HOME/.Xresources
 
 # starts polybar
-exec_always --no-startup-id $HOME/scripts/polybar.sh
+exec_always --no-startup-id $HOME/navi/scripts/polybar.sh
 
 # starts xrxvt daemon
 exec urxvtd -q -o -f
