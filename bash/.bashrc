@@ -11,8 +11,8 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 # set user defined path
-PATH=$PATH:$HOME/navi/scripts
-export path
+PATH=$PATH:$HOME/scripts
+export PATH
 
 # sets editor to vim
 export EDITOR='vim'

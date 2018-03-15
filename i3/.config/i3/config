@@ -212,7 +212,7 @@ exec_always xsetroot -bitmap /home/rad/navi/git/bitmap-walls/patterns/line_diag4
 exec_always xrdb $HOME/.Xresources
 
 # starts polybar
-exec_always --no-startup-id $HOME/navi/scripts/polybar.sh
+exec_always --no-startup-id $HOME/scripts/polybar.sh
 
 # starts xrxvt daemon
 exec urxvtd -q -o -f
