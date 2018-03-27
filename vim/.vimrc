@@ -26,13 +26,15 @@ filetype plugin indent on	" required
 " USER SETTINGS
 "
 " UI
-colorscheme gruvbox		" colors
-syntax enable			" enable syntax processing
-set tabstop=4			" number of visual spaces per tab
-set softtabstop=4		" number of spaces in tab when editing
-set expandtab			" tab are spaces
-set number              " show line numbers
-set cursorline          " highlight current line
-set lazyredraw          " redraw only when needed
-set showmatch           " highlight matching [] () or {}
-set linebreak           " breaks lines at words
+colorscheme gruvbox		                " colors
+set background=dark                     " Setting dark mode
+let g:gruvbox_contrast_dark = 'hard'    " Setting hard contrast
+syntax enable			                " enable syntax processing
+set tabstop=4			                " number of visual spaces per tab
+set softtabstop=4		                " number of spaces in tab when editing
+set expandtab			                " tab are spaces
+set number                              " show line numbers
+set cursorline                          " highlight current line
+set lazyredraw                          " redraw only when needed
+set showmatch                           " highlight matching [] () or {}
+set linebreak                           " breaks lines at words
