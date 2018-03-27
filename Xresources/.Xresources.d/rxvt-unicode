@@ -2,10 +2,10 @@
 !
 ! To be kept in .Xresources.d and loaded by .Xresources.
 
-!URxvt.termName:		    rxvt
 URxvt.transparant:	    false
 URxvt.internalBorder:	4
 URxvt.cursorBlink:	    true
+!URxvt*.termName: rxvt-unicode-256color
 
 ! Adding this to make solarized colors work right
 Urxvt.intensityStyles:	false

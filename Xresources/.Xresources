@@ -3,6 +3,7 @@
 ! loads modules from .Xresources.d
 #include ".Xresources.d/rxvt-unicode"
 #include ".Xresources.d/colors.d/gruvbox.dark"
+#include ".Xresources.d/colors.d/gruvbox-urxvt256.xresources"
 !#include ".Xresources.d/colors.d/eti"
 
 ! Global Settings
