@@ -8,9 +8,10 @@ misc=====================================================
 ;=====================================================
 
 [colors]
-background = ${xrdb:color0:#222}
+background = ${xrdb:background:#222}
 ;background = #282828
-background-alt = #444
+;background-alt = ${xrdb:color7}
+background-alt = #32302f
 foreground = ${xrdb:foreground:#222}
 ;foreground = #dfdfdf
 foreground-alt = #555
@@ -18,8 +19,9 @@ primary = ${xrdb:color6}
 secondary = ${xrdb:color3}
 alert = ${xrdb:color1}
 
-black = ${xrdb:color0}
+black = ${xrdb:background}
 red = ${xrdb:color1}
+lightred = ${xrdb:color9}
 green = ${xrdb:color2}
 yellow = ${xrdb:color3}
 blue = ${xrdb:color4}
@@ -46,10 +48,10 @@ border-size = 0
 border-color = #00000000
 
 padding-left = 0
-padding-right = 2
+padding-right = 0
 
-module-margin-left = 1
-module-margin-right = 2
+module-margin-left = 0
+module-margin-right = 0
 
 ;font-0 = -misc-termsyn-medium-*-*-*-12-*-*-*-*-*-*-*,
 font-0 = uw ttyp0:regular:pixelsize=11:antialias=true:hinting=true;0
@@ -142,8 +144,8 @@ label-mode-background = ${colors.primary}
 
 ; focused = Active workspace on focused monitor
 label-focused = %index%
-label-focused-background = ${colors.background}
-label-focused-underline = ${colors.foreground}
+label-focused-background = ${colors.background-alt}
+;label-focused-underline = ${colors.foreground}
 label-focused-padding = 1
 
 ; unfocused = Inactive workspace on any monitor
@@ -153,12 +155,13 @@ label-unfocused-padding = 1
 ; visible = Active workspace on unfocused monitor
 label-visible = %index%
 label-visible-background = ${self.label-focused-background}
-label-visible-underline = ${self.label-focused-underline}
+;label-visible-underline = ${self.label-focused-underline}
 label-visible-padding = ${self.label-focused-padding}
 
 ; urgent = Workspace with urgency hint set
 label-urgent = %index%
 label-urgent-background = ${colors.red}
+;label-urgent-underline = ${colors.lightred}
 label-urgent-padding = 1
 
 ; assigns label names
@@ -224,8 +227,9 @@ interface = wlp3s0
 interval = 3.0
 
 format-connected =  <label-connected>
+format-connected-padding = 1
 ;format-connected-underline = #9f78e1
-label-connected = %essid%
+label-connected = %local_ip%
 
 ;format-disconnected =  off
 ;format-disconnected = <label-disconnected>
@@ -247,6 +251,7 @@ interval = 3.0
 
 ;format-connected-underline = #55aa55
 format-connected =  <label-connected>
+format-connected-padding = 1
 ;format-connected-prefix = " "
 ;format-connected-prefix-foreground = ${colors.foreground-alt}
 label-connected = %local_ip%
@@ -269,6 +274,8 @@ time-alt = %I:%M %p
 
 ;format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
+;format-background = ${colors.background-alt}
+;format-padding = 1
 ;format-underline = #0a6cf5
 
 label = %date% %time%
@@ -288,11 +295,17 @@ master-mixer = Master
 
 ;format-volume = <label-volume> <bar-volume>
 format-volume = <label-volume>
+format-volume-padding = 1
+format-volume-background = ${colors.background-alt}
+;format-volume-underline = ${colors.foreground}
 label-volume =  %percentage%% 
 label-volume-foreground = ${colors.foreground}
 
 format-muted-prefix = " "
 format-muted-foreground = ${colors.foreground}
+format-muted-background = ${colors.background-alt}
+;format-muted-underline = ${colors.foreground}
+format-muted-padding = 1
 label-muted = --%  
 
 bar-volume-width = 8
@@ -323,13 +336,19 @@ adapter = AC
 full-at = 99
 
 format-charging = <label-charging>
-;format-charging-underline = #ffb52a
+format-charging-background = ${colors.background-alt} 
+format-charging-padding = 1
+;format-charging-underline = ${colors.foreground}
 
 format-discharging = <label-discharging>
-;format-discharging-underline = ${self.format-charging-underline}
+format-discharging-background = ${colors.background-alt} 
+format-discharging-padding = 1
+;format-discharging-underline = ${colors.foreground}
 
 format-full = <label-full>
-;format-full-underline = ${self.format-charging-underline}
+format-full-padding = 1
+format-full-background = ${colors.background-alt} 
+;format-full-underline = ${colors.foreground}
 
 ramp-capacity-0 = 
 ramp-capacity-1 = 
