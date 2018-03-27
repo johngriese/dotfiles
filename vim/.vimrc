@@ -15,6 +15,9 @@ Plugin 'VundleVim/Vundle.vim'
 " loads gruvbox colorscheme
 Plugin 'morhetz/gruvbox'
 
+" loads arctic plugin
+Plugin 'arcticicestudio/nord-vim'
+
 " All Plugins must be added before the following line
 call vundle#end()		" required
 filetype plugin indent on	" required
