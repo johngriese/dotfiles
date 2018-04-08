@@ -229,7 +229,7 @@ interval = 3.0
 format-connected =  <label-connected>
 format-connected-padding = 1
 ;format-connected-underline = #9f78e1
-label-connected = %local_ip%
+label-connected = 
 
 ;format-disconnected =  off
 ;format-disconnected = <label-disconnected>
@@ -254,7 +254,7 @@ format-connected =  <label-connected>
 format-connected-padding = 1
 ;format-connected-prefix = " "
 ;format-connected-prefix-foreground = ${colors.foreground-alt}
-label-connected = %local_ip%
+label-connected = 
 
 format-disconnected = 
 ;format-disconnected = <label-disconnected>
@@ -500,6 +500,11 @@ label =  vpn
 ;format-underline =
 ;format-prefix = " "
 format-prefix-foreground = ${colors.foreground}
+
+[module/backup]
+type = custom/script
+exec = $HOME/scripts/timeBackup.sh
+interval = 5
 
 [settings]
 screenchange-reload = true
