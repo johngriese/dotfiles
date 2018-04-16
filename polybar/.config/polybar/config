@@ -61,7 +61,7 @@ font-3 = unifont:fontformat=truetype:size=8:antialias=false;0
 
 modules-left = i3 
 modules-center = date 
-modules-right = vpncheck eth wlan volume battery 
+modules-right = vpncheck eth wlan backup volume battery 
 
 
 tray-position = right
@@ -229,7 +229,7 @@ interval = 3.0
 format-connected =  <label-connected>
 format-connected-padding = 1
 ;format-connected-underline = #9f78e1
-label-connected = 
+label-connected = %local_ip%
 
 ;format-disconnected =  off
 ;format-disconnected = <label-disconnected>
@@ -254,7 +254,7 @@ format-connected =  <label-connected>
 format-connected-padding = 1
 ;format-connected-prefix = " "
 ;format-connected-prefix-foreground = ${colors.foreground-alt}
-label-connected = 
+label-connected = %local_ip%
 
 format-disconnected = 
 ;format-disconnected = <label-disconnected>
@@ -495,16 +495,21 @@ label-empty-foreground = #55
 [module/vpncheck]
 type = custom/script
 exec = pgrep openvpn
-interval = 5
-label =  vpn
+interval = 3
+label = 
 ;format-underline =
 ;format-prefix = " "
 format-prefix-foreground = ${colors.foreground}
 
 [module/backup]
 type = custom/script
-exec = $HOME/scripts/timeBackup.sh
-interval = 5
+exec = $HOME/scripts/statusBackup.sh
+format = <label>
+interval = 3
+label =  %output%
+format-padding = 1
+format-background = ${colors.background-alt}
+format-foreground = ${colors.foreground}
 
 [settings]
 screenchange-reload = true

@@ -223,9 +223,6 @@ exec urxvtd -q -o -f
 # starts redshift
 exec redshift
 
-# starts udiskie
-exec udiskie
-
 # starts unclutter
 exec unclutter 
 
