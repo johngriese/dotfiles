@@ -18,7 +18,7 @@ alias zt='unzip -tq'
 alias zi='unzip -Z'
 
 # turns default nordnm config on and off
-alias nmon='sudo nordnm sync -k -a us normal tcp'
+alias nmon='sudo nordnm sync -uka us normal tcp'
 alias nmoff='sudo nordnm r -ack'
 
 # quicker journal
