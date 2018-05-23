@@ -18,5 +18,8 @@ export PATH
 export EDITOR='vim'
 export VISUAL='vim'
 
+# sets Command Line Editing Mode to Vi
+set -o vi
+
 # bash prompt
 PS1='[\u@\h \W]\$ '
