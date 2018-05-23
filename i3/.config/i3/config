@@ -37,6 +37,9 @@ bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec dmenu_run -b -i -fn "uw ttyp0:pixelsize=11" -nb "$(xrdb -query|awk '/\*color0:/ {print $2}')" -nf "$(xrdb -query|awk '/\*color7:/ {print $2}')" -sb "$(xrdb -query|awk '/\*color0:/ {print $2}')" -sf "$(xrdb -query|awk '/\*color15:/ {print $2}')"  
+
+# start keepmenu (dmenu keepass frontend
+bindsym $mod+p exec keepmenu
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
