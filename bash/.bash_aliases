@@ -9,7 +9,7 @@ alias la='ls -la'
 alias todo='vim /home/rad/todo.md'
 
 # notebook shortcut
-alias nb='notebook.sh'
+#alias nb='notebook.sh'
 
 # test a .zip archive
 alias zt='unzip -tq'
@@ -17,10 +17,6 @@ alias zt='unzip -tq'
 # shows .zip archive details
 alias zi='unzip -Z'
 
-# turns default nordnm config on and off
-alias nmon='sudo nordnm sync -uka us normal tcp'
-alias nmoff='sudo nordnm r -ack'
-
 # quicker journal
-alias jrnl='logbook.sh $HOME/documents/journal'
-alias lgbk='logbook.sh $HOME/documents/logbook'
+#alias jrnl='logbook.sh $HOME/documents/journal'
+#alias lgbk='logbook.sh $HOME/documents/logbook'
