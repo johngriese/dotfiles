@@ -1,7 +1,7 @@
 ! Xresources
 !
 ! loads modules from .Xresources.d
-#include ".Xresources.d/rxvt-unicode"
+!#include ".Xresources.d/rxvt-unicode"
 #include ".Xresources.d/colors.d/gruvbox.dark"
 #include ".Xresources.d/colors.d/gruvbox-urxvt256.xresources"
 !#include ".Xresources.d/colors.d/eti"
@@ -21,11 +21,10 @@
 !                    -wuncon-siji-medium-*-normal-*-10-*-*-*-*-*-*-*
 !*.boldFont:         -misc-termsyn-medium-*-*-*-12-*-*-*-*-*-*-*, \
 !                    -wuncon-siji-medium-*-normal-*-10-*-*-*-*-*-*-*
-*.font:             -uw-ttyp0-medium-r-normal-*-11-*-*-*-*-*-iso10646-*,\
-                    -wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1
-*.boldFont:         -uw-ttyp0-medium-r-normal-*-11-*-*-*-*-*-iso10646-*,\
-                    -wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1
-URxvt*letterSpace: 0 
+!*.font:             -uw-ttyp0-medium-r-normal-*-11-*-*-*-*-*-iso10646-*,\
+!                    -wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1
+!*.boldFont:         -uw-ttyp0-medium-r-normal-*-11-*-*-*-*-*-iso10646-*,\
+!                    -wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1
 ! xft settings
 ! still unsure which to use
 !*.font:             xft:uw ttyp0:regular:size=8
