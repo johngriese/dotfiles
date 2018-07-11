@@ -2,17 +2,6 @@ Dotfiles!
 
 *You like em, you love em!*
 
-# The Roster #
-bash > the shell, the myth, the legend   
-i3 > totally unique and very obscure wm  
-mpd > music player being phasing out for cmus  
-ncmpcpp > see above  
-polybar > super handy bar  
-ranger > the only way to browse files  
-rofi > still migrating to this from dmenu  
-vim > it's a text editor  
-Xresources > colors, fonts, etc.  
-
 # Useage #
 
 Dotfiles are managed with GNU Stow
