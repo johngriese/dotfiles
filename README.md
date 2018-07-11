@@ -27,5 +27,9 @@ $ mv ~/.vimrc ~/.vimrc.bkp
 $ cd ~/dotfiles
 $ stow vim
 ```
-
-
+* verify the symlink was created and points to the proper place
+```
+cd ~/
+ls -la
+```
+There should now be `.vimrc -> dotfiles/vim/.vimrc` in the home directory. Vim is now ready to use.
