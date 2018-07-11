@@ -1,5 +1,36 @@
 de
-delete
 vim ./freebooters.md
-
 edit freebooters.md
+rename READ.md
+del
+rename
+mv
+shell cp ~/downloads
+shell cp ~/downloads/cover.jpg . %s
+mv The Modern Lovers - The Modern Lovers [1976]
+rename The Modern Lovers - The Modern Lovers [1976]
+rename 18 - ? - MF Doom.mp3
+new
+new -s pi
+rename cover.jpg
+remove
+rename all dogs - Kicking Every Day [2015]
+bulkrename 
+search lisa
+search purdy
+shell
+search Lisa
+search a
+mkdir 
+open_with 
+mkdir Fief - III [2017]
+search tom
+bulkrename
+edit flag
+edit
+edit cover
+
+edit tag
+search one jub
+search one jug
+delete
