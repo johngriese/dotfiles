@@ -124,3 +124,6 @@ fi
 # sets editor to vim
 export EDITOR='vim'
 export VISUAL='vim'
+
+# starts ssh-agent if it isn't started already
+[ -z "$SSH_AUTH_SOCK" ] && eval "$(ssh-agent -s)"
