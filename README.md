@@ -7,7 +7,7 @@
 Each group of dotfiles has its own directory.
 For example, `.bashrc` and `.bash_aliases` should both go in a directory called `bash`.
 
-Each directory should be organized as it would be in the `$HOME` directory. 
+Each directory should be organized in parent directories as it would be in the `$HOME` directory. 
 For example: 
 * Vim's config file is `vimrc` and is a hidden file in the `$HOME` directory, so Vim's dotfile folder structure is `dotfiles/vim/.vimrc`. 
 * Ranger's config file belongs in `$HOME/.config`, so Ranger's dotfile folder structure is `dotfiles/ranger/.config/ranger`.
