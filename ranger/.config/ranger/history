@@ -3,7 +3,6 @@ vim ./freebooters.md
 edit freebooters.md
 rename READ.md
 del
-rename
 mv
 shell cp ~/downloads
 shell cp ~/downloads/cover.jpg . %s
@@ -29,8 +28,18 @@ bulkrename
 edit flag
 edit
 edit cover
-
 edit tag
 search one jub
 search one jug
+mkdir rpg
+mkdir dungeonworld
+mkdir freebooters
+unzip
+shell unzip
+mkdir
+rm
 delete
+
+edit lore.md
+rename
+rename oldFormat
