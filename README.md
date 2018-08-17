@@ -1,7 +1,5 @@
 # Dotfiles! #
 
-*You like em, you love em!*
-
 ## Useage ##
 
 Each group of dotfiles has its own directory.

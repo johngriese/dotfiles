@@ -30,8 +30,8 @@ filetype plugin indent on	" required
 "set background=dark                     " Setting dark mode
 "let g:gruvbox_contrast_dark = 'hard'    " Setting hard contrast
 syntax enable			                " enable syntax processing
-set tabstop=4			                " number of visual spaces per tab
-set softtabstop=4		                " number of spaces in tab when editing
+set tabstop=2			                " number of visual spaces per tab
+set softtabstop=2		                " number of spaces in tab when editing
 set expandtab			                " tab are spaces
 set number                              " show line numbers
 set cursorline                          " highlight current line
