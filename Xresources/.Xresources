@@ -5,6 +5,7 @@
 !#include ".Xresources.d/colors.d/gruvbox.dark"
 !#include ".Xresources.d/colors.d/gruvbox-urxvt256.xresources"
 !#include ".Xresources.d/colors.d/eti"
+#include ".Xresources.d/colors/nord"
 
 ! Global Settings
 !
