@@ -24,3 +24,6 @@ fi
 if [[ "$SSH_AGENT_PID" == "" ]]; then
     eval "$(<~/.ssh-agent-thing)"
 fi
+
+# load aliases
+[[ -f ~/.bash_aliases ]] && . ~/.bash_aliases
