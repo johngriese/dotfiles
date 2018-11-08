@@ -52,3 +52,9 @@ Keybinds for openbox are fairly minimal compared to the stock settings.
 
 #### Applications ####
 * `A-d` runs dmenu
+
+## Icons ##
+deploy with `stow` like everything else, but run to following line for each theme:
+```
+gtk-update-icon-cache -f -t ~/.icons/<theme_name>
+```
