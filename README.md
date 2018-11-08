@@ -31,3 +31,24 @@ $ cd ~/
 $ ls -la
 ```
 There should  be `.vimrc -> dotfiles/vim/.vimrc` in the home directory.
+
+## Keybinds ##
+
+### Openbox ###
+
+Keybinds for openbox are fairly minimal compared to the stock settings.
+
+#### Desktops ####
+* `A-*` switchs to specified desktop
+* `A-S-*` sends window to specified desktop 
+
+#### Windows ####
+* `A-w` closes window
+* `A-space` shows the window's menu
+* `A-tab` cycles through windows; `A-S-tab` cycles through in the opposite order
+* `A-h/j/k/l` switches windows directionally
+* `A-v` begins moving the window with the mouse
+* `A-r` begins resizing the window with the mouse
+
+#### Applications ####
+* `A-d` runs dmenu

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+	<menu id="root-menu" label="Openbox 3">
+		<item label="term">
+			<action name="Execute">
+				<execute>urxvt</execute>
+			</action>
+		</item>
+		<item label="fm">
+			<action name="Execute">
+				<execute>pcmanfm</execute>
+			</action>
+		</item>
+		<item label="browser">
+			<action name="Execute">
+				<execute>firefox</execute>
+			</action>
+		</item>
+		<item label="keepass">
+			<action name="Execute">
+				<execute>keepassxc</execute>
+			</action>
+		</item>
+		<menu id="" label="system">
+      <item label="obconf">
+     		<action name="Execute">
+     			<execute>obconf</execute>
+     		</action>
+     	</item>
+     	<item label="obmenu">
+     		<action name="Execute">
+     			<execute>obmenu</execute>
+     		</action>
+     	</item>
+     	<item label="tint2conf">
+     		<action name="Execute">
+     			<execute>tint2conf</execute>
+     		</action>
+     	</item>
+     	<separator/>
+     	<item label="reconf">
+     		<action name="Execute">
+     			<execute>openbox --reconfigure</execute>
+     		</action>
+     	</item>
+		</menu>
+		<item label="log out">
+			<action name="Exit"/>
+		</item>
+	</menu>
+</openbox_menu>
