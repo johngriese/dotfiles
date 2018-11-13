@@ -225,6 +225,9 @@
     <keybind key="A-w">
       <action name="Close"/>
     </keybind>
+    <keybind key="A-f">
+      <action name="ToggleFullscreen"/>
+    </keybind>
     <keybind key="A-space">
       <action name="ShowMenu">
         <menu>client-menu</menu>
@@ -280,6 +283,11 @@
     <keybind key="A-d">
       <action name="Execute">
         <command>dmenu_run</command>
+      </action>
+    </keybind>
+    <keybind key="A-Return">
+      <action name="Execute">
+        <command>urxvtc</command>
       </action>
     </keybind>
   </keyboard>
