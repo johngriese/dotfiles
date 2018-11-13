@@ -18,5 +18,4 @@ alias zt='unzip -tq'
 alias zi='unzip -Z'
 
 # quicker journal
-#alias jrnl='logbook.sh $HOME/documents/journal'
-#alias lgbk='logbook.sh $HOME/documents/logbook'
+alias jrnl='journal.sh'
