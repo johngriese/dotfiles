@@ -16,6 +16,7 @@ Urxvt.intensityStyles:	false
 !                        xft:Misc Siji:regular:size=10
 !URxvt.boldFont:         xft:Misc Termsyn:regular:size=10, \
 !                        xft:Misc Siji:regular:size=10
+URxvt.font:             -*-ttyp0-medium-r-normal-*-14-*-*-*-*-*-iso10646-*
 
 ! If font is too wide mess with this
 !URxvt.letterSpace:  -1

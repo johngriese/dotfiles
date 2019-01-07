@@ -19,3 +19,5 @@
 tint2 &
 redshift &
 urxvtd &
+
+urxvtc -e tmux new-session &

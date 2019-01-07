@@ -17,15 +17,14 @@
 ! URxvt has its own declarations for glyph support
 ! see .Xresources.d/rxvt-unicode
 !
-*.font:             -*-fixed-*-*-*-*-13-100-*-*-*-*-*-*
-*.boldFont:         -*-fixed-*-*-*-*-13-100-*-*-*-*-*-*
+!*.font:             -*-fixed-*-*-*-*-13-100-*-*-*-*-*-*
+!*.boldFont:         -*-fixed-*-*-*-*-13-100-*-*-*-*-*-*
 
 !*.font:             -misc-termsyn-medium-*-*-*-12-*-*-*-*-*-*-*, \
 !                    -wuncon-siji-medium-*-normal-*-10-*-*-*-*-*-*-*
 !*.boldFont:         -misc-termsyn-medium-*-*-*-12-*-*-*-*-*-*-*, \
 !                    -wuncon-siji-medium-*-normal-*-10-*-*-*-*-*-*-*
-!*.font:             -uw-ttyp0-medium-r-normal-*-11-*-*-*-*-*-iso10646-*,\
-!                    -wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1
+*.font:             -uw-ttyp0-medium-r-normal-*-12-*-*-*-*-*-iso10646-*,
 !*.boldFont:         -uw-ttyp0-medium-r-normal-*-11-*-*-*-*-*-iso10646-*,\
 !                    -wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1
 ! xft settings
