@@ -6,10 +6,7 @@ alias ll='ls -l'
 alias la='ls -la'
 
 # simple todo 
-alias todo='vim /home/rad/todo.md'
-
-# notebook shortcut
-#alias nb='notebook.sh'
+alias todo='vim /home/rad/documents/trapperkeeper/todo.md'
 
 # test a .zip archive
 alias zt='unzip -tq'
