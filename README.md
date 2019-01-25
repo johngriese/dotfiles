@@ -1,18 +1,17 @@
-# Dotfiles! #
+# Dotfiles #
 
 ## Useage ##
 
-Each group of dotfiles has its own directory.
-For example, `.bashrc` and `.bash_aliases` should both go in a directory called `bash`.
+Each group of dotfiles has its own dotfile directory.
+For example, `.bashrc` and `.bash_aliases` should both go in `dotfiles/bash`.
 
-Each directory should be organized in parent directories as it would be in the `$HOME` directory. 
-For example: 
-* Vim's config file is `vimrc` and is a hidden file in the `$HOME` directory, so Vim's dotfile folder structure is `dotfiles/vim/.vimrc`. 
-* Ranger's config file belongs in `$HOME/.config`, so Ranger's dotfile folder structure is `dotfiles/ranger/.config/ranger`.
+Each dotfile directory has the same parent directory structure as it would in `$HOME`. For example: 
+* Vim's config file is `~/.vimrc`, so Vim's dotfile directory structure is `~/dotfiles/vim/.vimrc`. 
+* Ranger's config file belongs in `~/.config`, so Ranger's dotfile directory structure is `~/dotfiles/ranger/.config/ranger`.
 
-Dotfiles are deployed by symlinks via [GNU Stow](https://www.gnu.org/software/stow/), which is available in the repositories of most linux distributions. 
+Dotfiles are deployed using Symbolic Links (symlinks) via [GNU Stow](https://www.gnu.org/software/stow/), which is available in the repositories of most linux distributions. 
 For examples, to deploy the dotfiles for Vim:
-* clone the repository to the home folder
+* clone the repository to the home directory
 ```
 $ git clone https://github.com/veryrad/dotfiles
 ```
@@ -30,7 +29,11 @@ $ stow vim
 $ cd ~/
 $ ls -la
 ```
-There should  be `.vimrc -> dotfiles/vim/.vimrc` in the home directory.
+`.vimrc -> ~/dotfiles/vim/.vimrc` should new be in the home directory.
+
+### Modifying Dotfiles ###
+
+Through the magic of symlinks, you can edit dotfiels via the link source OR target. For example, you can make changes to `vimrc` by editing either `~/.vimrc` or `~/dotfiles/vim/.vimrc`. Regardless, changes can be commited using Git in `~/dotfiles`.
 
 ## Keybinds ##
 
@@ -52,6 +55,10 @@ Keybinds for openbox are fairly minimal compared to the stock settings.
 
 #### Applications ####
 * `A-d` runs dmenu
+* `A-enter` runs a terminal (urxvtc)
+
+#### System ####
+* `A-S-l` locks the screen ([i3lock-fancy](https://github.com/meskarune/i3lock-fancy))
 
 ## Icons ##
 deploy with `stow` like everything else, but run to following line for each theme:
