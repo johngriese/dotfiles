@@ -1,7 +1,6 @@
 # Dotfiles #
 
 ## Useage ##
-
 Each group of dotfiles has its own dotfile directory.
 For example, `.bashrc` and `.bash_aliases` should both go in `dotfiles/bash`.
 
@@ -59,6 +58,9 @@ Keybinds for openbox are fairly minimal compared to the stock settings.
 
 #### System ####
 * `A-S-l` locks the screen ([i3lock-fancy](https://github.com/meskarune/i3lock-fancy))
+
+### XFCE ###
+todo
 
 ## Icons ##
 deploy with `stow` like everything else, but run to following line for each theme:
