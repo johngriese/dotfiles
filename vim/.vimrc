@@ -3,8 +3,10 @@
 " Vim-Plug plugin manager
 call plug#begin('~/.vim/plugged')
 " PLUGINS
-" Nord-vim colorscheme
 Plug 'arcticicestudio/nord-vim'
+Plug 'junegunn/goyo.vim'
+Plug 'junegunn/limelight.vim'
+Plug 'vim-airline/vim-airline'
 "" All Plugins must be added before the following line
 filetype plugin indent on	" required
 
