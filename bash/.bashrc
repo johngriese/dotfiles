@@ -9,8 +9,8 @@ alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
 # set user defined path
-if [ -d "$HOME/bin" ] ; then
-        export PATH="$HOME/bin:$PATH"
+if [ -d "$HOME/scripts" ] ; then
+        export PATH="$HOME/scripts:$PATH"
 fi
 
 # set default editor to Vim
