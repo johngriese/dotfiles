@@ -6,7 +6,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'arcticicestudio/nord-vim'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
-Plug 'vim-airline/vim-airline'
+"Plug 'vim-airline/vim-airline'
 Plug 'scrooloose/nerdtree'
 " Initialize plugin system
 call plug#end()
@@ -27,3 +27,7 @@ set number                        " show line numbers
 set lazyredraw                    " redraw only when needed
 set showmatch                     " highlight matching [] () or {}
 set linebreak                     " breaks lines at words
+
+" KEYBINDS
+map <C-n> :NERDTreeToggle<CR>
+map <C-g> :Goyo<CR>
