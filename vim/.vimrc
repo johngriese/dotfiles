@@ -7,6 +7,9 @@ Plug 'arcticicestudio/nord-vim'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 Plug 'vim-airline/vim-airline'
+Plug 'scrooloose/nerdtree'
+" Initialize plugin system
+call plug#end()
 "" All Plugins must be added before the following line
 filetype plugin indent on	" required
 
