@@ -16,6 +16,8 @@ filetype plugin indent on	" required
 
 " USER SETTINGS
 "
+" COLORS
+colorscheme nord
 " UI
 syntax enable			                " enable syntax processing
 set tabstop=2			                " number of visual spaces per tab
