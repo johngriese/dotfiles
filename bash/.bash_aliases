@@ -16,3 +16,6 @@ alias zi='unzip -Z'
 
 # quicker journal
 alias jrnl='journal.sh'
+
+# ssh and attach tmux in one go
+alias libra="ssh libra -t tmux a"
