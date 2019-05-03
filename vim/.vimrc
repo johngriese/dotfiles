@@ -3,9 +3,13 @@
 " Vim-Plug plugin manager
 call plug#begin('~/.vim/plugged')
 " PLUGINS
-Plug 'arcticicestudio/nord-vim'
+"Plug 'arcticicestudio/nord-vim'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
+function FixupBase16(info)
+    !sed -i '/Base16hi/\! s/a:\(attr\|guisp\)/l:\1/g' ~/.vim/plugged/base16-vim/colors/*.vim
+endfunction
+Plug 'chriskempson/base16-vim', { 'do': function('FixupBase16') }
 "Plug 'vim-airline/vim-airline'
 Plug 'scrooloose/nerdtree'
 " Initialize plugin system
@@ -17,7 +21,9 @@ filetype plugin indent on	" required
 " USER SETTINGS
 "
 " COLORS
-colorscheme nord
+"colorscheme nord
+"colorscheme base16-default-light
+
 " UI
 syntax enable			                " enable syntax processing
 set tabstop=2			                " number of visual spaces per tab
