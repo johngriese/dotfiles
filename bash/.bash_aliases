@@ -19,3 +19,6 @@ alias jrnl='journal.sh'
 
 # ssh and attach tmux in one go
 alias libra="ssh libra.home -t tmux a"
+
+# show the octal permission for the file
+alias perm='stat -c "%a %n" '
