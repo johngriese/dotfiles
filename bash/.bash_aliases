@@ -22,3 +22,6 @@ alias libra="ssh libra.home -t tmux a"
 
 # show the octal permission for the file
 alias perm='stat -c "%a %n" '
+
+# docker-compose
+alias dcp='docker-compose -f /opt/docker-compose.yml '
