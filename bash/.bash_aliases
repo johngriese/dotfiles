@@ -13,6 +13,3 @@ alias zi='unzip -Z'
 
 # show the octal permission for the file
 alias perm='stat -c "%a %n" '
-
-# docker-compose
-alias dcp='docker-compose -f /opt/docker-compose.yml '
