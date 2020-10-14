@@ -13,3 +13,6 @@ alias zi='unzip -Z'
 
 # show the octal permission for the file
 alias perm='stat -c "%a %n" '
+
+# get keys from github and overwrite authorized keys
+alias getkeys='curl -s https://github.com/veryrad.keys > ~/.ssh/authorized_keys'
