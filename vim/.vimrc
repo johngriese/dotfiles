@@ -1,8 +1,5 @@
 " local .vimrc
 
-"" All Plugins must be added before the following line
-filetype plugin indent on	" required
-
 " USER SETTINGS
 "
 " UI
