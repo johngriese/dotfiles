@@ -11,7 +11,7 @@ alias uzt='unzip -tq'
 alias uzi='unzip -Z'
 
 # show the octal permission for the file
-alias perm='stat -c "%a %n" '
+alias perm='stat -f %A'
 
 # get keys from github and overwrite authorized keys
 alias getkeys='curl -s https://github.com/johngriese.keys > ~/.ssh/authorized_keys'
