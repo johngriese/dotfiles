@@ -5,10 +5,10 @@ alias ll='ls -lh'
 alias la='ls -la'
 
 # test a .zip archive
-alias zt='unzip -tq'
+alias uzt='unzip -tq'
 
 # shows .zip archive details
-alias zi='unzip -Z'
+alias uzi='unzip -Z'
 
 # show the octal permission for the file
 alias perm='stat -c "%a %n" '
