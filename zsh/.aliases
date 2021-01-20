@@ -1,0 +1,17 @@
+# ~/.bash_aliases
+
+# ls
+alias ll='ls -lhG'
+alias la='ls -laG'
+
+# test a .zip archive
+alias uzt='unzip -tq'
+
+# shows .zip archive details
+alias uzi='unzip -Z'
+
+# show the octal permission for the file
+alias perm='stat -f %A'
+
+# get keys from github and overwrite authorized keys
+alias getkeys='curl -s https://github.com/johngriese.keys > ~/.ssh/authorized_keys'
