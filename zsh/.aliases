@@ -1,8 +1,8 @@
 # ~/.bash_aliases
 
 # ls
-alias ll='ls -lh'
-alias la='ls -la'
+alias ll='ls -lhG'
+alias la='ls -laG'
 
 # test a .zip archive
 alias uzt='unzip -tq'
